@@ -1,0 +1,325 @@
+/* set body margin and padding to 0 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* set header styles */
+header {
+  background-color: #2b5c96;
+  color: white;
+  padding: 30px;
+}
+
+/*nav bar  */
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  background-color: transparent;
+  color: #999;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+nav ul li a:hover {
+  background-color: transparent;
+  color: #999;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav li {
+  position: relative;
+}
+
+.navbar-nav li:hover .dropdown-menu {
+  display: block;
+}
+
+
+.dropdown-menu {
+  margin-top: 0;
+  border: none;
+  box-shadow: none;
+}
+
+
+.logo {
+  margin-right: 5px;
+  height: 85px;
+  width: 85px;
+}
+
+h1 {
+
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+/* set main styles */
+main {
+
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+
+}
+
+/* set form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #2b5c96;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* set playlist styles */
+#playlist {
+  border: 1px solid #ddd;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 24px;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+
+}
+
+.playlist li {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.playlist li:hover {
+  background-color: #eee;
+}
+
+.playlist li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.song-list{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+}
+
+
+.btn.dropdown-toggle {
+  width: 150px;
+  text-align: left;
+}
+
+span.caret {
+  position: absolute;
+  left: 90%;
+  top: 45%;
+}
+
+label {
+  padding-top: 5px;
+}
+
+.form-label {
+  padding-left: 0px;
+}
+
+/* Add styles to the form elements */
+.form-control {
+  margin-bottom: 10px;
+}
+
+.form-label {
+  font-weight: bold;
+
+}
+
+
+img {
+  width: 140px;
+  height: 140px;
+}
+
+.btn {
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #2b5c96 !important;
+}
+
+.btn-success:hover {
+  background-color: #3d6fad !important;
+}
+
+img.track {
+  border: 1px solid #8a8a8a;
+}
+
+/* Trending section header */
+.trending-header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+/* Style the trending section */
+#trending {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #dee2e6;
+}
+
+.trending-header {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 5% 15%;
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  background-color: #2b5c96;
+}
+
+.footer-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+
+.social {
+  padding: 20px 10px;
+}
+
+a:link {
+  color: #EEEEEE;
+}
+
+a:visited {
+  color: #EEEEEE;
+}
+
+.social:hover {
+  color: #adadad;
+
+}
+
+a:active {
+  color: #EEEEEE;
+}
+
+.playlist-container {
+
+  overflow-y: scroll;
+}
