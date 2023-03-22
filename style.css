@@ -326,5 +326,5 @@ a:active {
 
 @media (max-width: 480px) {
   body{
-      width: 480px;
+      width: 100%;
   }
